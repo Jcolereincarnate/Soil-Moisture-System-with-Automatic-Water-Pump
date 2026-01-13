@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "Blynk_iot ID"
-#define BLYNK_TEMPLATE_NAME "Blynk IoT name" 
-#define BLYNK_AUTH_TOKEN "Blynk IoT Authentication token"
+#define BLYNK_TEMPLATE_ID "TMPL2TavLRlHN"
+#define BLYNK_TEMPLATE_NAME "Soil Moisture Sensor" 
+#define BLYNK_AUTH_TOKEN "FeQkgNemCAwy7DBmlcGKCRiDXOrcDOeq"
 
 #define BLYNK_PRINT Serial
 
@@ -9,8 +9,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-char ssid[] = "WiFi SSID";
-char pass[] = "WiFi password"; 
+char ssid[] = "iPhone";
+char pass[] = "pppppppp"; 
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
